@@ -1,1 +1,1 @@
-<!-- First project creating the google homepage -->
+First project creating the google homepage
