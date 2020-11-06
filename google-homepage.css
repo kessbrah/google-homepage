@@ -1,19 +1,42 @@
 /* CSS Document */
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+}
+.bottom-navbar {
+    position: fixed;
+    margin: 0px;
+    padding: 0px;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(230, 225, 225);
+}
+.bottom-navbar a {
+    text-decoration: none;
+    color: black;
+    padding-right: 10px;
+}
+.bottom-right {
+    float: right;
 }
 li {
     float: left;
+    padding-top: 10px;
+    padding-right: 10px;
 }
-/* Figure out how to float right the gmail, images, and sign in buttons*/
 li a {
     display: block;
     color: black;
     text-align: center;
     padding: 5px 5px;
     text-decoration: none;
+}
+.right {
+    float: right;
 }
 body {
     background-color: white;
@@ -31,19 +54,18 @@ body {
 }
 .searchbar input {
     width: 30%;
-    height: 30px;
-    border-radius: 20px;
+    height: 40px;
+    border-radius: 25px;
 }
-.Searchbutton {
-    text-align: center;
+.Googlesearch {
     position: relative;
+    text-align: center;
     padding-top: 10px;
-    right: 100px;
-    
+    right: 80px;
 }
 .FeelingLucky {
     position: relative;
     text-align: center;
     bottom: 21px;
-    left: 40px;
+    left: 50px;
 }
